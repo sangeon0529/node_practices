@@ -40,3 +40,13 @@ Node Practices
     3) npm 모듈 : npm을 통해서 node_module에 설치하고 사용하는 모듈
             - 원격배포
             - 로컬배포
+
+6. npmjs.com의 npm registry에 패키지 배포(원격배포)
+
+7. helloweb-ex01: 웹애플리케이션 만들어보기(express 프레임워크 x)
+    1) app01: http: core module 기반
+    2) app02: http, fs: core module 기반
+    3) app03: connect, serve-static: npm package 기반
+    4) app04: connect, serve-static, connect-route: npm package 기반
+
+8. helloweb-ex01: 웹애플리케이션 만들어보기(express 프레임워크 o)
