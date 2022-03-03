@@ -13,9 +13,8 @@ app.use(connectRoute(function(router){
     
         resp.end("<h1>Main</h1>");
     });
-    
+
     router.get("/user",function(req,resp){
-        
             resp.writeHead(200, {
                 'Content-Type': 'text/html'
             });

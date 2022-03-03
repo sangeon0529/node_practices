@@ -5,7 +5,7 @@ const server = http.createServer(function(req, resp){
     console.log(req.url);
 
     if(req.url === '/'){
-        req.url = '/index.html';
+        req.url = 'index.html';
     }
 
     fs.readFile(__dirname + '/public' + req.url,function(error,data){
