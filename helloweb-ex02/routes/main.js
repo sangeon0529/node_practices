@@ -2,9 +2,9 @@ const express = require('express');
 
 const router = express.Router();
 
-router.route('/01').get(function(req,res){
+router.route('').get(function(req,res){
     
-    res.render('hello/01');
+    res.render('main/index');
 })
 
 router.route('/02').get(function(req,res){
