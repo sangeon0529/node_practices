@@ -24,7 +24,7 @@ const application = express()
         res.locals.res = res;
         next();
     })
-    .use('.user',userRouter)
+    .use('/user',userRouter)
     .use('/',mainRouter)
     .use('/hello',helloRouter);
 
